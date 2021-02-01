@@ -1,0 +1,315 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+  * {
+    font-family: 'Lora', serif;
+  } 
+
+  div {
+    color:teal;
+  }
+
+  div > h1{
+    font-family: 'Lora',serif;
+    color:teal;
+  }
+
+  div > h2{
+    color:teal;
+    font-family: 'Lora', serif;
+  }
+
+
+  button{
+    font-family: 'Lora', serif;
+    background-color: #0b500b; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;   
+  }
+
+  #submit-allowed-foods{
+    background-color: #246eaa; 
+  }
+
+
+  #add-notes{
+    background-color: #246eaa;
+    margin-top: 10px;
+  }
+
+  #login{
+    font-family: 'Lora', serif;
+    background-color: #246eaa; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px; 
+    margin-top: 20px;
+  }
+
+  #sign-up{
+    font-family: 'Lora', serif;
+    background-color: #246eaa;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px; 
+    margin-top: 20px;
+  }
+
+  #cancel-modal{
+    background-color: #246eaa; 
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  #save-notes{
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  #delete-note{
+    background-color: #e2342e; 
+    font-size: 10px;
+    margin-top: 20px;
+    position: absolute; 
+    right: -90px;
+  }
+
+  #update-relative{
+    background-color: #246eaa; 
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  #delete-relative{
+    background-color: #e2342e; 
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+
+  #show-more{
+    background-color: #246eaa; 
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  
+  #delete-food{
+    background-color: #e2342e; 
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  #update-food{
+    background-color: #246eaa; 
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  #allowed-food{
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  #relative{
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+ #make-update-food{
+  background-color: #246eaa; 
+  font-size: 10px;
+  margin-top: 20px;
+ }
+
+ #make-update-relative{
+  background-color: #246eaa; 
+  font-size: 10px;
+  margin-top: 20px;
+ }
+
+ #cancel-food{
+  font-size: 10px;
+  margin-top: 20px; 
+ }
+
+ #cancel-relative{
+  font-size: 10px;
+  margin-top: 20px; 
+ }
+
+ #add-notes{
+  font-size: 10px;
+  margin-top: 20px; 
+ }
+
+ #start-interaction{
+  background-color:black;
+ }
+ 
+  body {
+    margin:0;
+    padding:0;
+    background-color:#ffb7b6;
+  }
+
+  .personal-details{
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .family-details{
+    text-align: center;
+    font-family: 'Lora', serif;
+  }
+  .allowed-food-details{
+    text-align: center;
+    font-family: 'Lora', serif;
+  }
+
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=integer], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #274b29;
+    color: rgb(175, 233, 209);
+    padding: 10px 10px;
+    margin-top: 50px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #bde4bf;
+  }
+  
+  .mymodal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+  }
+  
+  .myoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+
+
+  .signUp input {
+    font-size: 12px;
+    font-weight: 350;
+    border: 1px dashed grey;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .allowed-foods input {
+    font-size: 24px;
+    font-weight: 350;
+    border: 1px dashed grey;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .relatives input {
+    font-size: 12px;
+    font-weight: 350;
+    border: 1px dashed grey;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+  }
+
+  .update input {
+    font-size: 24px;
+    font-weight: 350;
+    border: 1px dashed grey;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: -50px -20px;
+  }
+
+  .header {
+    width: 100%;
+    background-image: linear-gradient(to right top, #b5a1e2, #e9d57d, #4dc0cf);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+
+  .maste-detail-element{
+    margin:auto;
+    background-color:#f4b6ff; 
+  }
+
+  .app{
+    background-color:#ffffed;  
+  }
+
+  .interaction-mode{
+   display:inline-block;
+   margin-left:25%;
+  }
